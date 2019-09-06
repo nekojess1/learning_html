@@ -1,0 +1,63 @@
+<!-- Uma div é utilizada para dividir o seu site em partes, criando um "container" para agrupar elementos visuais do site.  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Div e Span</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	 	#topo{
+	 		background: gray;
+	 	}
+	 	#produtos{
+	 		background: purple;
+	 	}
+	 	#rodape{
+	 		background: gray;
+	 	}
+	 	#assinatura{
+	 		background: purple;
+	 	}
+		.produto{
+			background: purple;
+			margin: 10px;
+		}
+		.color{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div id="topo">
+		<img src="img/market.png" width="100">
+		<ul>
+			<li>Home</li>
+			<li>Product</li>
+			<li>Contact</li>
+		</ul>
+	</div>
+	<div id="produtos">
+		<div class="produto">
+			Produto 1
+
+		</div>
+		<div class="produto">
+			Produto 2
+		</div>
+
+		<div class="produto">
+			Produto 3
+		</div>
+	</div>
+	<div id="rodape">
+		Todos os <span class="color"> direitos </span>reservados.
+		
+	</div>
+	<!-- Funciona como um inline --> 
+	<span id="assinatura">
+		Jéssica
+	</span>
+	<span id="assinatura">
+		Alves
+	</span>
+</body>
+</html>
