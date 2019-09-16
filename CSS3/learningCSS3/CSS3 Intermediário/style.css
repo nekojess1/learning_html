@@ -1,0 +1,56 @@
+/* Modelo de Caixa */
+
+.conteudoteste{
+	border: 1px solid red;
+	/*padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px; */
+	width: 150px;
+	/*padding: 20px 15px 10px 5px;*/
+	padding: 20px 5px;
+	/* aplicamos 20px na margem top e bot, e 5px nas lateais direita e esquerda.*/
+	/* o padding é somado com o tamanho total da nossa caixa */
+	/*margin-top: 20px;*/
+	margin: 10px;
+}
+/* ------------------ Elementos flutuantes ------------------ */
+.conteudo{
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+
+
+}
+.conteudo1{
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+
+}
+.clear{
+	clear: left;
+}
+#principal{
+	border: 5px solid red;
+	background: green;
+}
+
+/* --------- Elementos flutuantes na prática ----------- */
+
+#principal2{
+	width: 920px;
+	border: 1px solid red;
+}
+.noticia{
+	background: #e5e5e5;
+	padding: 5px;
+	width: 280px;
+	margin: 7px;
+	float: left;
+
+}
